@@ -13,6 +13,9 @@ Si vous voyez des erreurs ou avez des idées pour enrichir ce jeu (tout en garda
 https://github.com/into-the-hive-ship/into-the-hive-ship
 
 ## Contexte
+La nuée Tyranide envahit progressivement la galaxie. Devant les assauts sans fin de vagues de creatures monstrueuses, plusieur stratégie se sont mise en en place. Une des plus audacieuses consiste à détecter les vaisseaux au plus tôt et de les saborder alors que ses voyageurs n'ont pas encore émergés de leur long sommeil.
+
+Des équipes sont constituées et envoyées par torpilles d'abordage ou en détectant un orifice resté ouvert.
 
 ## Règles
 
