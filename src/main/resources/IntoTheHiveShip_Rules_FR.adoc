@@ -1,4 +1,4 @@
-Illustration de la couverture.
+include::CoverPage.adoc[]
 
 include::RulesInformations.adoc[]
 
@@ -18,13 +18,42 @@ La nuée Tyranide envahit progressivement la galaxie. Devant les assauts sans fi
 Des équipes sont constituées et envoyées par torpilles d'abordage ou en détectant un orifice resté ouvert.
 
 ## Règles
+### Déroulement d'une Partie
+
+### Caractéristiques des Unités
+
+### Mouvement
+
+#### Terrain
+
+### Tir
+
+### Combat
+
+#### Repoussé
+
+### Blessure
 
 ## Règles Avancées
 
 ### Parties en Solo
 
+### Parties à Plus de Deux Joueurs
+
 ## Scénarii
+
+### Détruire les chambres de sommeil
+Détruire trois chambres de sommeil.
+
+### Détruire les oeufs dans la chambre de ponte
+Détruire 5 groupes d'oeufs dans la grande chambre de ponte.
+
+### Survivant
+On dirige une personne, et on doit la mener jusqu'à la sortie.
+
+### On ne laisse personne derrière
+Retrouver et libérer un prisonnier. Utilise plusieurs 3 tuiles "bleeps" (1 avec la personne à libérer et 2 leures).
 
 ## Tuiles
 
-## Cartes des Protagonistes et Antagonistes
+## Cartes de Référence des Unités

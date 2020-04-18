@@ -20,6 +20,8 @@
         <asciidoctorj.pdf.version>1.5.0-rc.3</asciidoctorj.pdf.version>
         <asciidoctorj.version>2.2.0</asciidoctorj.version>
         <jruby.version>9.2.9.0</jruby.version>
+        <maven.build.timestamp.format>dd/MM/yyyy HH:mm:ss</maven.build.timestamp.format>
+        <project.build.date>${maven.build.timestamp}</project.build.date>
     </properties>
 
     <dependencies>
@@ -63,6 +65,13 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
@@ -129,11 +138,7 @@
                         </dependency>
                     </dependencies>
                     <configuration>
-                        <sourceDirectory>src/main/resources</sourceDirectory>
-                        <!-- Attributes common to all output formats -->
-                        <attributes>
-                            <sourcedir>${project.build.sourceDirectory}</sourcedir>
-                        </attributes>
+                        <sourceDirectory>${project.build.directory}/classes</sourceDirectory>
                         <outputDirectory>${project.build.directory}/generated-docs</outputDirectory>
                         <backend>pdf</backend>
                         <doctype>book</doctype>

@@ -1,7 +1,7 @@
 ## Rules Informations
 
 ### Version
-1.0.0
+${version} - ${project.build.date}
 
 ### Contributors
 
