@@ -4,4 +4,13 @@ A simple tabletop game, thought up during the COVID-19 confinement period, creat
 The rules can be downloaded [here](https://into-the-hive-ship.github.io/).
 
 ## Project tools
-AsciiDoc : Used to generate the PDF rule files.
+AsciiDoctor : Used to write the rules;
+Maven : Used to generate the PDF rule files.
+
+## Generate the rules
+
+``mvnw clean install org.asciidoctor:asciidoctor-maven-plugin:process-asciidoc``
+
+Once generated, the rules can be found here :
+
+``./target/generated-docs``

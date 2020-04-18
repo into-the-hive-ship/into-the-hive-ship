@@ -1,0 +1,27 @@
+Illustration de la couverture.
+
+include::RulesInformations.adoc[]
+
+## Origine du jeu
+Ce jeu fut pensé lors du confinement de 2020 contre le COVID-19. Une bonne partie de la planète était confinée à la maison, les écoles étaient fermées, ainsi que de nombreux magasins. Le but premier de ce jeu était de :
+
+* Permettre aux plus jeunes (dès 7 ans) de découvrir les jeux à base de figurines;
+* Proposer une boîte à outils pour concevoir de nouveau scénnarii.
+
+Si vous voyez des erreurs ou avez des idées pour enrichir ce jeu (tout en gardant l'esprit premier du jeu) n'hésitez pas à nous rejoindre ici :
+
+https://github.com/into-the-hive-ship/into-the-hive-ship
+
+## Contexte
+
+## Règles
+
+## Règles Avancées
+
+### Parties en Solo
+
+## Scénarii
+
+## Tuiles
+
+## Cartes des Protagonistes et Antagonistes
