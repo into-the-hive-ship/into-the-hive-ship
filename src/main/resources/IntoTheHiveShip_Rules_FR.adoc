@@ -1,6 +1,6 @@
-include::CoverPage.adoc[]
+include::adoc/CoverPage.adoc[]
 
-include::RulesInformations.adoc[]
+include::adoc/RulesInformations.adoc[]
 
 ## Origine du jeu
 Ce jeu fut pensé lors du confinement de 2020 contre le COVID-19. Une bonne partie de la planète était confinée à la maison, les écoles étaient fermées, ainsi que de nombreux magasins. Le but premier de ce jeu était de :
