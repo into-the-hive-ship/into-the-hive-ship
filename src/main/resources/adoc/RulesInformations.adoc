@@ -13,3 +13,11 @@ Cédric Maria-Sube
 
 #### Testers
 Cédric Maria-Sube
+
+### Licence
+
+These rules are completely unofficial and in no way endorsed by Games Workshop Limited.
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+image::../img/CC_BY-NC-SA_88x31.png[]
