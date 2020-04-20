@@ -13,14 +13,50 @@ Si vous voyez des erreurs ou avez des idées pour enrichir ce jeu (tout en garda
 https://github.com/into-the-hive-ship/into-the-hive-ship
 
 ## Contexte
-La nuée Tyranide envahit progressivement la galaxie. Devant les assauts sans fin de vagues de creatures monstrueuses, plusieur stratégie se sont mise en en place. Une des plus audacieuses consiste à détecter les vaisseaux au plus tôt et de les saborder alors que ses voyageurs n'ont pas encore émergés de leur long sommeil.
+La nuée Tyranide envahit progressivement la galaxie. Devant les assauts sans fin de vagues de creatures monstrueuses, plusieur stratégie se sont mise en en place. Une des plus audacieuses consiste à détecter les vaisseaux au plus tôt et de les saborder alors que ses voyageurs n'ont pas encore émergé de leur long sommeil.
 
-Des équipes sont constituées et envoyées par torpilles d'abordage ou en détectant un orifice resté ouvert.
+_TODO : Add Tyranid Swarm illustration._
+
+Des équipes sont constituées et envoyées par torpilles d'abordage ou en détectant un orifice de vaisseau resté ouvert.
+
+_TODO : Add boarding assault scene._
 
 ## Règles
 ### Déroulement d'une Partie
 
+Le(s) joueur(s) :
+
+. Choisissent leur scénario en fonction du nombre de joueurs, de sa difficulté, et de la durée envisagée pour la partie;
+. Choississent leurs troupes en fonction des conditions du scénario;
+. Lancent chacun un dé pour désigner l'initiatif des joueurs (par ordre du plus grand);
+. Alternent l'activation de leurs troupes afin d'effectuer, dans l'ordre qu'ils veulent :
+** Se déplacer;
+** Attaquer;
+** Tirer;
+** Une action spéciale.
+. Vérifient si les conditions de victoire ou de défaite sont atteintes, sinon, ils remettent leurs cartes de référence d'unité à l'endroit.
+
+_TODO : Add example of beginning of game and turn sequence._
+
 ### Caractéristiques des Unités
+
+Chaque unité a les caractéristiques suivantes afin de les permettre d'interagir dans le jeu :
+
+* *Taille (SIZ) :* Indique la taille de l'unité, et donc le nombre d'unités qui peuvent partager une même tuile;
+* *Actions (ACT) :* Définit le nombre d'actions que peut accomplir l'unité par tour;
+* *Mouvement (MOV) :* Le nombre de tuiles que peut parcourir une unité pour une action;
+* *Visée (AIM) :* Le jet qu'il faut pour réussir un tir;
+* *Combat (CBT) :* Le jet qu'il faut pour réussir un combat ou se défendre;
+* *Résistance (RES) :* La résistance de l'unité;
+* *Action Spéciale (SPE) :* Décrit l'action spéciale et les conditions pour l'appliquer.
+
+### Activer une Unité
+Lorsque vous décidez d'activer une unité, vous pouver lui permettre d'accomplir autant d'actions qu'elle possède dans son profil. Une fois que cette unité a été activée, tournez sa carte de référence d'unité de 90°.
+
+#### Place Prise par une Unité
+A tout moment, une unité doit respecter le seuil de taille d'une tuille dont la valeur vaut *3*. C'est à dire que la somme des tailles des unités sur une tuile ne peut pas dépasser *3*. Si pour une raison non couverte par les règles des figurines ne respectent pas ces règles, repoussées les plus légères; en cas d'égalité, repoussez les toutes.
+
+_TODO : A mettre des schéma explicant les différentes situations._
 
 ### Mouvement
 
@@ -30,13 +66,38 @@ Des équipes sont constituées et envoyées par torpilles d'abordage ou en déte
 
 ### Combat
 
-#### Repoussé
+#### Repousser
 
-### Blessure
+### Blesser
+
+### Actions Spéciales
+
+Les actions spéciales sont notifiées par des mots clefs sur les cartes de référence des unités :
+
+* *Brute (Brut [X]) :* Cette unité repousse ses victimes de [X] tuiles;
+* *Commandant (COMMAND [X]) :* Une fois que cette unité a été activée, [X] unités à au plus de 3 tuiles peuvent être, à tour de rôle, activées;
+* *Instinct (INSTINCT[X])) :* Cette action a lieu lors des <<solo-games>> et désigne le type d'instinct de l'unité;
+* *Terrifiant (TERROR [X]) :* Les unitées se trouvant à [X] tuiles de cette untité voient leur valeur d'actions réduite à 0 pendant ce tour.
 
 ## Règles Avancées
 
+[#solo-games]
 ### Parties en Solo
+
+Certains scénarii sont jouables seuls. Dans ce cas, au lieu d'activer classiquement les créatures Tyranides, le joueur lance un dé pour chaque activation d'unité, et applique le résultat de l'instinct :
+
+* BESERK :
+** 1 : Ne bouge pas;
+** 2-5 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche;
+** 6 : Tir s'il peut, ou se rapproche de l'unité ennemie la plus proche.
+* GUARD :
+** 1 : Tir s'il peut, ou se rapproche de l'unité ennemie la plus proche;
+** 2-5 : Ne bouge pas;
+** 6 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche.
+* SENTINELLE :
+** 1 : Ne bouge pas;
+** 2-5 : Tir s'il peut, ou se rapproche de l'unité ennemie la plus proche;
+** 6 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche.
 
 ### Parties à Plus de Deux Joueurs
 
