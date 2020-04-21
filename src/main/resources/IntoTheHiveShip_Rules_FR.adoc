@@ -89,14 +89,14 @@ Certains scénarii sont jouables seuls. Dans ce cas, au lieu d'activer classique
 * BESERK :
 ** 1 : Ne bouge pas;
 ** 2-5 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche;
-** 6 : Tir s'il peut, ou se rapproche de l'unité ennemie la plus proche.
+** 6 : Tir si elle peut, ou se rapproche de l'unité ennemie la plus proche.
 * GUARD :
-** 1 : Tir s'il peut, ou se rapproche de l'unité ennemie la plus proche;
-** 2-5 : Ne bouge pas;
+** 1 : Ne bouge pas;
+** 2-5 : Tir si elle peut l'unité ennemie la plus proche;
 ** 6 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche.
 * SENTINELLE :
 ** 1 : Ne bouge pas;
-** 2-5 : Tir s'il peut, ou se rapproche de l'unité ennemie la plus proche;
+** 2-5 : Se rapproche de l'unité ennemie la plus proche. Tir si elle peut;
 ** 6 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche.
 
 ### Parties à Plus de Deux Joueurs
