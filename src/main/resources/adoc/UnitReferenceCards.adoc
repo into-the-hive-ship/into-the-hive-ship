@@ -1,0 +1,89 @@
+### Summary
+
+[cols="2,1s,1s,1s,1s,1s,1s,1s,3",frame=none,grid=rows]
+|===
+| |SIZ |COS |ACT |MOV |AIM |CBT |RES |SPE
+
+|Primaris Intercessor
+|2
+|10
+|2
+|2
+|3+
+|3+
+|4
+|
+
+|Primaris Intercessor Sergeant
+|2
+|15
+|2
+|2
+|3+
+|3+
+|4
+|COMMAND[2]
+
+|Primaris Reiver
+|2
+|20
+|3
+|2
+|3+
+|3+
+|4
+|TERROR[3]
+
+|Primaris Reiver Serageant
+|2
+|25
+|3
+|2
+|3+
+|3+
+|4
+|COMMAND[2], TERROR[3]
+
+|Hormagaunt
+|1
+|5
+|4
+|3
+|5+
+|5+
+|2
+|INSTINCT[BESERK]
+
+|Hormagaunt Pack Leader
+|1
+|25
+|4
+|3
+|5+
+|5+
+|3
+|INSTINCT[BESERK]
+
+|Termagaunt
+|1
+|5
+|3
+|3
+|5+
+|5+
+|2
+|INSTINCT[GUARD, SENTINEL]
+
+|Termagaunt Pack Leader
+|1
+|25
+|3
+|3
+|5+
+|5+
+|3
+|INSTINCT[GUARD, SENTINEL]
+
+|===
+
+### Reference Cards

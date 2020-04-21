@@ -43,6 +43,7 @@ _TODO : Add example of beginning of game and turn sequence._
 Chaque unité a les caractéristiques suivantes afin de les permettre d'interagir dans le jeu :
 
 * *Taille (SIZ) :* Indique la taille de l'unité, et donc le nombre d'unités qui peuvent partager une même tuile;
+* *Coût (COS) :* Indique le coût en point pour choisir cette unité;
 * *Actions (ACT) :* Définit le nombre d'actions que peut accomplir l'unité par tour;
 * *Mouvement (MOV) :* Le nombre de tuiles que peut parcourir une unité pour une action;
 * *Visée (AIM) :* Le jet qu'il faut pour réussir un tir;
@@ -74,10 +75,10 @@ _TODO : A mettre des schéma explicant les différentes situations._
 
 Les actions spéciales sont notifiées par des mots clefs sur les cartes de référence des unités :
 
-* *Brute (Brut [X]) :* Cette unité repousse ses victimes de [X] tuiles;
-* *Commandant (COMMAND [X]) :* Une fois que cette unité a été activée, [X] unités à au plus de 3 tuiles peuvent être, à tour de rôle, activées;
+* *Brute (Brut[X]) :* Cette unité repousse ses victimes de [X] tuiles;
+* *Commandant (COMMAND[X]) :* Une fois que cette unité a été activée, [X] unités à au plus de 3 tuiles peuvent être, à tour de rôle, activées;
 * *Instinct (INSTINCT[X])) :* Cette action a lieu lors des <<solo-games>> et désigne le type d'instinct de l'unité;
-* *Terrifiant (TERROR [X]) :* Les unitées se trouvant à [X] tuiles de cette untité voient leur valeur d'actions réduite à 0 pendant ce tour.
+* *Terrifiant (TERROR[X]) :* Les unitées se trouvant à [X] tuiles de cette untité voient leur valeur d'actions réduite à 0 pendant ce tour.
 
 ## Règles Avancées
 
@@ -94,7 +95,7 @@ Certains scénarii sont jouables seuls. Dans ce cas, au lieu d'activer classique
 ** 1 : Ne bouge pas;
 ** 2-5 : Tir si elle peut l'unité ennemie la plus proche;
 ** 6 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche.
-* SENTINELLE :
+* SENTINEL :
 ** 1 : Ne bouge pas;
 ** 2-5 : Se rapproche de l'unité ennemie la plus proche. Tir si elle peut;
 ** 6 : Se rapproche de, charge, ou attaque l'unité ennemie la plus proche.
@@ -118,3 +119,4 @@ Retrouver et libérer un prisonnier. Utilise plusieurs 3 tuiles "bleeps" (1 avec
 ## Tuiles
 
 ## Cartes de Référence des Unités
+include::adoc/UnitReferenceCards.adoc[]
