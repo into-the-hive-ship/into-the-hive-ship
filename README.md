@@ -8,6 +8,9 @@ The rules can be downloaded [here](https://into-the-hive-ship.github.io/).
 * Maven : Used to generate the PDF rule files;
 * [Inkscape](https://inkscape.org/) : Used to design tile grids.
 
+## Supported languages
+* French.
+
 ## Generate the rules
 
 ``mvnw clean install org.asciidoctor:asciidoctor-maven-plugin:process-asciidoc``
@@ -15,3 +18,5 @@ The rules can be downloaded [here](https://into-the-hive-ship.github.io/).
 Once generated, the rules can be found here :
 
 ``./target/generated-docs``
+
+Contributions and fixes should start from the "develop" branch and create a designated "feature" branch. Merge Requests should aim to the "develop" branch.
